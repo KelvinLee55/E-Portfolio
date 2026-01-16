@@ -10,12 +10,12 @@ about:
       href: https://www.linkedin.com/in/ramon-melser-666932129/
     - icon: twitter
       text: Twitter/X
-      href: https://x.com/MelserRamon
+      href: https://x.com/KelvinLee
     - icon: github
       text: GitHub
-      href: https://github.com/ramonmelser
+      href: https://github.com/KelvinLee55
     - icon: envelope-at
-      text: Email
+      text: Gmail
       href: mailto:kahonglee5@gmail.com
 ---
 
