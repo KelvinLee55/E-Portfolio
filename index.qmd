@@ -16,7 +16,7 @@ about:
       href: https://github.com/ramonmelser
     - icon: envelope-at
       text: Email
-      href: https://kahonglee5@gmail.com
+      href: mailto:kahonglee5@gmail.com
 ---
 
 ## About me
