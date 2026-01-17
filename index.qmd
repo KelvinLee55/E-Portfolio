@@ -1,16 +1,13 @@
 ---
 title: "Kelvin Lee"
-image: images/Kelvin-Lee.jpg
+image: images/KelvinLee_Image.jpeg
 about:
   template: trestles
   image-width: 20em
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/KelvinLee
+      href: https://www.linkedin.com/in/ka-hong-kelvin-lee/
     - icon: github
       text: GitHub
       href: https://github.com/KelvinLee55
@@ -19,10 +16,12 @@ about:
       href: mailto:kahonglee5@gmail.com
 ---
 
-## About me
+## About me...
 
-I was born in China but raised in Hong Kong. I graduated from Hong Kong Baptist University with a bachelor’s degree in geography in 2025. I worked as an intern at WWF in 2022 and at AFCD (the Hong Kong government agency for nature conservation and management) in 2024, respectively. I enjoyed introducing various historical buildings and species to participants when I interned as an event services assistant at WWF. Meanwhile, I was privileged to engage in the government-led internship program, helping to inspect tree conditions for NGOs, develop a seedling planting guide, and analyze data for Plantation Enrichment Programme (PEP) pilot sites. 
+My name is Kelvin Lee. I was raised in Hong Kong and moved to Vancouver, British Columbia, in 2025. I hold a bachelor’s degree in geography from Hong Kong Baptist University and a master’s degree in geomatics for environmental management from the University of British Columbia. My academic background has equipped me with a solid foundation in environmental systems, spatial analysis, and data-driven decision-making.
 
-My profound affinity with wildlife and plants has been built around my erstwhile career path, pushing me to contribute more to the earth that we all have relied on. During my leisure time, I am fond of camping and trekking, both of which are the best ways to feel nature and also connect with like-minded people. Apart from that, I am particularly intrigued by how urban green spaces mitigate air pollution. In some cases, vegetation would increase the amount of air pollutants in an urban setting. 
+My professional experience spans environmental education, ecological fieldwork, and geospatial analysis. I supported public outreach and conservation education initiatives, communicating topics such as coral reef and wildlife conservation to diverse audiences. I also contributed to ecological surveys, plantation management, and biodiversity monitoring projects. In these roles, I worked with field data, developed practical guidelines, and applied geospatial tools to support ecosystem restoration efforts.
 
-I aim to explore the factors driving these contrasting outcomes through the knowledge and insights gained from the MGEM Program. Regarding my research aspirations, I would like to concentrate on topics such as air quality as well as heat waves in our cities. I am eager to leverage my passion for nature and urban sustainability to advance innovative conservation solutions through the MGEM Program.
+My interest in environmental sustainability is rooted in a long-standing connection with wildlife and plants, shaped through both academic training and hands-on experience. Outside of work, I enjoy camping and trekking, which allow me to engage closely with natural landscapes and connect with like-minded individuals. I am particularly intrigued by the impact of urban green spaces in shaping environmental quality, especially their complex and sometimes contrasting effects on air pollution.
+
+Looking ahead, I aim to further explore wildfire management challenges associated with the wildland-urban interface in remote islands, using geomatics and spatial analysis to better understand fuel characterization. I am motivated to apply my technical skills, field experience, and passion for nature toward developing practical and innovative solutions for fire-prone remote communities.
