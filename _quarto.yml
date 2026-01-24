@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: C:\Users\kelvin55.stu\OneDrive - UBC\Documents\GitHub\E-Portfolio
+  output-dir: D:\E-Portfolio
 
 website:
   title: "E-Portfolio"
@@ -10,12 +10,10 @@ website:
         text: Home
       - href: resume.qmd
         text: Resume
-      - href: publications.qmd
-        text: Publications
       - href: content.qmd
         text: Content & Deliverables
-      - href: Project.qmd
-        text: Project
+      - href: Publications.qmd
+        text: Publications
 
 format:
   html:

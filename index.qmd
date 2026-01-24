@@ -1,6 +1,6 @@
 ---
 title: "Kelvin Lee"
-image: images/Kelvin-Lee.jpg
+image: images/KelvinLee_Image.jpeg
 about:
   template: trestles
   image-width: 20em
@@ -16,12 +16,22 @@ about:
       href: mailto:kahonglee5@gmail.com
 ---
 
-## About me
+## About me...
 
+<<<<<<< HEAD
 I was raised in Hong Kong and relocated to Vancouver, British Columbia, in 2025. I earned a Bachelor’s degree in Geography from Hong Kong Baptist University in 2025 and completed a Master of Geomatics for Environmental Management at the University of British Columbia in 2026. 
 
 I worked as an intern at World Wide Fund for Nature in 2022 and at AFCD (the Hong Kong government agency for nature conservation and management) in 2024, respectively. I enjoyed introducing various historical buildings and species to participants when I interned as an event services assistant at WWF. Meanwhile, I was privileged to engage in the government-led internship program, helping to inspect tree conditions for NGOs, develop a seedling planting guide, and analyze data for Plantation Enrichment Programme (PEP) pilot sites. 
+=======
+My name is Kelvin Lee. I was raised in Hong Kong and moved to Vancouver, British Columbia, in 2025. I hold a bachelor’s degree in geography from Hong Kong Baptist University and a master’s degree in geomatics for environmental management from the University of British Columbia. My academic background has equipped me with a solid foundation in environmental systems, spatial analysis, and data-driven decision-making.
+>>>>>>> 5ca6ec880eedb7520f0c3edbec30bf807a2bb420
 
-My profound affinity with wildlife and plants has been built around my erstwhile career path, pushing me to contribute more to the earth that we all have relied on. During my leisure time, I am fond of camping and trekking, both of which are the best ways to feel nature and also connect with like-minded people. Apart from that, I am particularly intrigued by how urban green spaces mitigate air pollution. In some cases, vegetation would increase the amount of air pollutants in an urban setting. 
+My professional experience spans environmental education, ecological fieldwork, and geospatial analysis. I supported public outreach and conservation education initiatives, communicating topics such as coral reef and wildlife conservation to diverse audiences. I also contributed to ecological surveys, plantation management, and biodiversity monitoring projects. In these roles, I worked with field data, developed practical guidelines, and applied geospatial tools to support ecosystem restoration efforts.
 
+<<<<<<< HEAD
 
+=======
+My interest in environmental sustainability is rooted in a long-standing connection with wildlife and plants, shaped through both academic training and hands-on experience. Outside of work, I enjoy camping and trekking, which allow me to engage closely with natural landscapes and connect with like-minded individuals. I am particularly intrigued by the impact of urban green spaces in shaping environmental quality, especially their complex and sometimes contrasting effects on air pollution.
+
+Looking ahead, I aim to further explore wildfire management challenges associated with the wildland-urban interface in remote islands, using geomatics and spatial analysis to better understand fuel characterization. I am motivated to apply my technical skills, field experience, and passion for nature toward developing practical and innovative solutions for fire-prone remote communities.
+>>>>>>> 5ca6ec880eedb7520f0c3edbec30bf807a2bb420
