@@ -7,10 +7,7 @@ about:
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/ramon-melser-666932129/
-    - icon: twitter
-      text: Twitter/X
-      href: https://x.com/KelvinLee
+      href: https://www.linkedin.com/in/ka-hong-kelvin-lee/
     - icon: github
       text: GitHub
       href: https://github.com/KelvinLee55
@@ -21,8 +18,10 @@ about:
 
 ## About me
 
-I was born in China but raised in Hong Kong. I graduated from Hong Kong Baptist University with a bachelor’s degree in geography in 2025. I worked as an intern at WWF in 2022 and at AFCD (the Hong Kong government agency for nature conservation and management) in 2024, respectively. I enjoyed introducing various historical buildings and species to participants when I interned as an event services assistant at WWF. Meanwhile, I was privileged to engage in the government-led internship program, helping to inspect tree conditions for NGOs, develop a seedling planting guide, and analyze data for Plantation Enrichment Programme (PEP) pilot sites. 
+I was raised in Hong Kong and relocated to Vancouver, British Columbia, in 2025. I earned a Bachelor’s degree in Geography from Hong Kong Baptist University in 2025 and completed a Master of Geomatics for Environmental Management at the University of British Columbia in 2026. 
+
+I worked as an intern at World Wide Fund for Nature in 2022 and at AFCD (the Hong Kong government agency for nature conservation and management) in 2024, respectively. I enjoyed introducing various historical buildings and species to participants when I interned as an event services assistant at WWF. Meanwhile, I was privileged to engage in the government-led internship program, helping to inspect tree conditions for NGOs, develop a seedling planting guide, and analyze data for Plantation Enrichment Programme (PEP) pilot sites. 
 
 My profound affinity with wildlife and plants has been built around my erstwhile career path, pushing me to contribute more to the earth that we all have relied on. During my leisure time, I am fond of camping and trekking, both of which are the best ways to feel nature and also connect with like-minded people. Apart from that, I am particularly intrigued by how urban green spaces mitigate air pollution. In some cases, vegetation would increase the amount of air pollutants in an urban setting. 
 
-I aim to explore the factors driving these contrasting outcomes through the knowledge and insights gained from the MGEM Program. Regarding my research aspirations, I would like to concentrate on topics such as air quality as well as heat waves in our cities. I am eager to leverage my passion for nature and urban sustainability to advance innovative conservation solutions through the MGEM Program.
+

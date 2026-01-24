@@ -4,7 +4,53 @@ format: html
 editor: visual
 ---
 
-# Project 1 - Capstone Deliverables
+# 1) Community Project - Disaster Response Mapping
+
+## 
+
+# 2) Capstone Project - Fuel type Mapping
+
+## Preliminary Fuel Type Map
+
+```{r leaflet, include = FALSE}
+library(leaflet)
+library(terra)
+
+Pre_FTM <- rast("C:/Users/kelvin55.stu/OneDrive - UBC/Documents/GitHub/E-Portfolio/E_Portfolio/Preliminary_FTM.tif")
+
+pal <- colorFactor(
+  palette = c(
+    "#00FF00", # Broadleaf (Bright Green)
+    "#008000", # Conifer (Dark Green)
+    "#FF0000", # Shrub (Red)
+    "#E69F00", # Grass (Orange/Gold)
+    "#808080", # Bare Soil (Gray)
+    "#FFFFFF", # Urban (White/Blank)
+    "#0000FF"  # Water (Blue)
+  ),
+  domain = values(Pre_FTM),
+  na.color = "transparent"
+)
+
+Lea_01 <- leaflet(width = 600, height = 600) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addRasterImage(Pre_FTM, colors = pal, opacity = 0.8, maxBytes = 10 * 1024 * 1024) %>%
+  addLegend(pal = pal, values = values(Pre_FTM), opacity = 0.8, title = "Fuel Type") %>%
+  addScaleBar(position = "bottomleft")
+  
+```
+
+```{r map, echo=FALSE}
+Lea_01
+```
+
+## Biophysical Inputs: Biomass & Dryness indices
+
+## Refined Fuel Model Map
+
+# 3) Graduate Coursework Project - City Suitability Mapping
+
+## 
 
 This is a sample page where you can archive project deliverables. Every header you use will correspond to a tab in the legend - shown on the right-hand side of your screen ("On this page").
 
@@ -69,7 +115,6 @@ src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"
 The full-screen GEE application is available [here](https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool) in case you're interested.
 
 (To use the GEE tool, navigate to any city you'd like, hit apply filters, and click anywhere on the map to retrieve a time-series of Landsat surface temperature observations for that point. Areas where the maximum temp exceeded 35 degrees Celsius in your date-range are highlighted in red.)
-
 
 ```{=html}
 <iframe width="900" height="700" src="https://ee-melserramon.projects.earthengine.app/view/thermal-analysis-tool"></iframe>
