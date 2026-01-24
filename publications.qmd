@@ -2,15 +2,62 @@
 title: "Publications"
 ---
 
-*Major Projects:*
+# 1) Community Project - Disaster Response Mapping
 
--   **Lee, K. H. (2025).** *Fuel type mapping frosm Sentinel-2 multispectral imagery using a Convolutional Neural Network (CNN) classification framework: A case study on Mudge Island, British Columbia.* [Unpublished research proposal]. University of British Columbia. 
-[View document](https://1drv.ms/b/c/a6e118be0791bfa2/IQB_HjrTJRTOTbEe4RHMM9FdAVY1aLdk5KUUJevWlUXYg98?e=eTad01)
+## 
 
--   **Lee, K. H. K. (2025).** *Evaluating the impact of urban parks on air quality enhancement in Hong Kong.* [Honours project, Hong Kong Baptist University].  
-[View document](https://1drv.ms/b/c/a6e118be0791bfa2/IQB23jztZIAYQbjC0pHanoEKAdpA8sO8R56MG4-snfiZlDk?e=nt4hTn)
- 
-*Reports:*
+# 2) Capstone Project - Fuel type Mapping
 
--   **Lee, K. L. (2025).** *How can pre-fire above-ground biomass (AGB) structure and burn-severity patterns guide fuel-management strategies in Coastal Douglas-fir (Pseudotsuga menziesii) forest ecosystems?* [Unpublished research proposal]. University of British Columbia.  
-[View document](https://1drv.ms/w/c/a6e118be0791bfa2/IQBStV2ZWltIRr1sW3izda5GAZ--YXvgT2mfJlhV3hTcYWs?e=EfaChv)
+## Preliminary Fuel Type Map
+
+```{r leaflet, include = FALSE}
+library(leaflet)
+library(terra)
+
+# 1. Load the raster from your local path
+# Note: For GitHub, remember to move this file to your project folder 
+# and use a relative path like rast("Preliminary_FTM.tif")
+Pre_FTM_raw <- rast("C:/Users/kelvin55.stu/OneDrive - UBC/Documents/GitHub/E-Portfolio/E_Portfolio/Preliminary_FTM.tif")
+
+# 2. Manually project from EPSG:32610 to EPSG:3857 (Web Mercator)
+# We use method = "near" (nearest neighbor) to ensure your fuel type 
+# integers don't get blurred into decimals.
+Pre_FTM <- project(Pre_FTM_raw, "EPSG:3857", method = "near")
+
+# 3. Define the labels and colors exactly as you requested
+fuel_labels <- c("Broadleaf", "Conifer", "Shrub", "Grass", "Bare Soil", "Urban", "Water")
+fuel_colors <- c("#00FF00", "#008000", "#FF0000", "#E69F00", "#808080", "#FFFFFF", "#0000FF")
+
+# 4. Create the Palette mapping values 1-7 to your colors
+pal <- colorFactor(
+  palette = fuel_colors,
+  domain = 1:7,
+  na.color = "transparent"
+)
+
+# 5. Build the Leaflet Map
+Lea_01 <- leaflet(width = 600, height = 600) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addRasterImage(
+    Pre_FTM, 
+    colors = pal, 
+    opacity = 0.8, 
+    # Increased maxBytes to 30MB to prevent downsampling gaps
+    maxBytes = 30 * 1024 * 1024, 
+    project = FALSE  # Telling Leaflet it's already in the right CRS
+  ) %>%
+  addLegend(
+    pal = pal, 
+    values = 1:7, 
+    opacity = 0.8, 
+    title = "Fuel Type",
+    # Swaps the 1-7 numbers for your class names in the legend
+    labFormat = labelFormat(transform = function(x) fuel_labels[x])
+  ) %>%
+  addScaleBar(position = "bottomleft")
+
+```
+
+```{r map, echo=FALSE}
+Lea_01
+```
