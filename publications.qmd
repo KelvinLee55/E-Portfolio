@@ -1,5 +1,7 @@
 ---
 title: "Publications"
+format: html
+editor: visual
 ---
 
 # 1) Community Project - Disaster Response Mapping
@@ -61,3 +63,21 @@ Lea_01 <- leaflet(width = 600, height = 600) %>%
 ```{r map, echo=FALSE}
 Lea_01
 ```
+
+## Biophysical Inputs: Biomass & Dryness indices
+
+## Refined Fuel Model Map
+
+# 3) Graduate Coursework Project - City Suitability Mapping
+
+## 
+
+
+
+
+
+
+
+
+
+
