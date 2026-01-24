@@ -12,37 +12,6 @@ editor: visual
 
 ## Preliminary Fuel Type Map
 
-```{r leaflet, include = FALSE}
-library(leaflet)
-library(terra)
-
-Pre_FTM <- rast("C:/Users/kelvin55.stu/OneDrive - UBC/Documents/GitHub/E-Portfolio/E_Portfolio/Preliminary_FTM.tif")
-
-pal <- colorFactor(
-  palette = c(
-    "#00FF00", # Broadleaf (Bright Green)
-    "#008000", # Conifer (Dark Green)
-    "#FF0000", # Shrub (Red)
-    "#E69F00", # Grass (Orange/Gold)
-    "#808080", # Bare Soil (Gray)
-    "#FFFFFF", # Urban (White/Blank)
-    "#0000FF"  # Water (Blue)
-  ),
-  domain = values(Pre_FTM),
-  na.color = "transparent"
-)
-
-Lea_01 <- leaflet(width = 600, height = 600) %>%
-  addProviderTiles("Esri.WorldImagery") %>%
-  addRasterImage(Pre_FTM, colors = pal, opacity = 0.8, maxBytes = 10 * 1024 * 1024) %>%
-  addLegend(pal = pal, values = values(Pre_FTM), opacity = 0.8, title = "Fuel Type") %>%
-  addScaleBar(position = "bottomleft")
-
-```
-
-```{r map, echo=FALSE}
-Lea_01
-```
 
 ## Biophysical Inputs: Biomass & Dryness indices
 
