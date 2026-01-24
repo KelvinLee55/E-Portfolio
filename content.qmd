@@ -37,7 +37,7 @@ Lea_01 <- leaflet(width = 600, height = 600) %>%
   addRasterImage(Pre_FTM, colors = pal, opacity = 0.8, maxBytes = 10 * 1024 * 1024) %>%
   addLegend(pal = pal, values = values(Pre_FTM), opacity = 0.8, title = "Fuel Type") %>%
   addScaleBar(position = "bottomleft")
-  
+
 ```
 
 ```{r map, echo=FALSE}
